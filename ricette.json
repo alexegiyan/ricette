@@ -1,0 +1,91 @@
+{
+"pasta-ragu-manzo":{"n":"Pasta al ragù di manzo magro","e":"🍝","m":"Pranzo · lunedì (Sett. A)","t":35,
+"i":[["Pasta",220,"g","a crudo"],["Macinato di manzo magro",200,"g",null],["Passata di pomodoro",200,"g",null],["Olio extra vergine",16,"g","metà in cottura, metà a crudo"],["Verdura di contorno",null,null,"non si pesa"],["Cipolla, sale, pepe",null,null,"quanto basta"]],
+"u":["Padella grande","Pentola alta","Scolapasta","Bilancia","Cucchiaio di legno"],
+"s":["Trita la cipolla e falla appassire 4-5 minuti in padella con metà olio, fuoco medio.","Alza il fuoco, aggiungi il macinato e rompilo in pezzetti piccoli. <strong>Rosolalo finché prende colore</strong>, 5-6 minuti: se resta grigio il ragù viene slavato.","Sala, pepa, aggiungi la passata e abbassa al minimo.","Sobbolli 20-25 minuti a bollicine lente, mescolando ogni tanto. Se si asciuga, un goccio d'acqua.","Nel frattempo cuoci la pasta al dente, un minuto meno del tempo in confezione.","Scola, salta un minuto in padella col ragù, spegni e aggiungi <strong>il resto dell'olio a crudo</strong>."],
+"note":"Il macinato magro ha poco grasso e si asciuga in fretta: se il ragù tira troppo, allunga con acqua di cottura e non con altro olio."},
+
+"pane-e-uova":{"n":"Pane e uova","e":"🥚","m":"Cena · lunedì (Sett. A)","t":15,
+"i":[["Pane",150,"g",null],["Uova",4,"n","sode o all'occhio"],["Olio extra vergine",16,"g","a crudo"],["Verdura di contorno",null,null,"non si pesa"],["Sale",null,null,"quanto basta"]],
+"u":["Pentolino","Padella antiaderente","Bilancia"],
+"s":["Per le sode: uova in acqua fredda, porta a bollore, poi <strong>9 minuti esatti dal bollore</strong>. Raffredda sotto l'acqua fredda prima di sgusciare.","Per quelle all'occhio: padella calda, un filo d'olio, apri le uova e cuoci 3 minuti a fuoco medio-basso col coperchio.","Servi con il pane pesato, la verdura e <strong>il resto dell'olio a crudo</strong>."],
+"note":"Nove minuti dal bollore, non da quando accendi. Sotto gli 8 il tuorlo resta liquido e cola, sopra i 12 diventa verdastro e gommoso."},
+
+"pasta-pomodoro-grana":{"n":"Pasta al pomodoro con grana","e":"🍅","m":"Pranzo · mercoledì (Sett. A)","t":25,
+"i":[["Pasta",220,"g","a crudo"],["Passata di pomodoro",250,"g",null],["Grana grattugiato",60,"g",null],["Olio extra vergine",16,"g","metà in cottura, metà a crudo"],["Verdura di contorno",null,null,"non si pesa"],["Aglio, basilico, sale",null,null,"quanto basta"]],
+"u":["Padella","Pentola alta","Scolapasta","Bilancia"],
+"s":["Scalda metà olio con uno spicchio d'aglio schiacciato, 1 minuto, poi togli l'aglio.","Versa la passata, sala e cuoci 12-15 minuti a fuoco medio-basso finché si addensa.","Cuoci la pasta al dente e tieni da parte un mestolo di acqua di cottura.","Manteca la pasta nel sugo con un goccio di acqua di cottura, un minuto.","<strong>Spegni il fuoco</strong>, poi aggiungi il grana e il resto dell'olio."],
+"note":"Il grana va sempre a fuoco spento: nel sugo bollente fa i grumi e resta filante invece di legare. Sono 60 g, è la porzione di formaggio della settimana."},
+
+"pasta-girello":{"n":"Pasta con straccetti di girello","e":"🥩","m":"Pranzo · giovedì (Sett. A)","t":30,
+"i":[["Pasta",220,"g","a crudo"],["Girello di manzo",200,"g","a fette sottili"],["Olio extra vergine",16,"g","metà in cottura, metà a crudo"],["Verdura di contorno",null,null,"non si pesa"],["Rosmarino, sale",null,null,"quanto basta"]],
+"u":["Padella pesante","Pentola alta","Scolapasta","Bilancia"],
+"s":["Taglia il girello a <strong>strisce sottili, 5-8 mm</strong>, controfibra. Asciugale con carta da cucina.","Metti l'acqua a bollire e sala quando bolle.","Scalda la padella vuota a fuoco alto 2 minuti, aggiungi metà olio e butta le strisce <strong>poche alla volta</strong>.","Cuoci <strong>1 minuto per lato e basta</strong>: il girello è magrissimo, oltre i 2 minuti diventa stopposo.","Togli la carne, cuoci la pasta al dente, scolala e saltala nella stessa padella.","Rimetti la carne, spegni, aggiungi il resto dell'olio a crudo."],
+"note":"Se ammucchi la carne in padella, la temperatura crolla e invece di rosolare bolle nella sua acqua. Due giri da 100 g sono meglio di uno da 200."},
+
+"patate-e-legumi":{"n":"Patate al forno e legumi misti","e":"🫘","m":"Cena · venerdì (Sett. A)","t":50,
+"i":[["Patate",400,"g","pelate, a crudo"],["Legumi misti in scatola",240,"g","peso sgocciolato"],["Olio extra vergine",16,"g","metà sulle patate, metà a crudo"],["Verdura di contorno",null,null,"non si pesa"],["Rosmarino, aglio, sale",null,null,"quanto basta"]],
+"u":["Teglia da forno","Carta forno","Padella","Bilancia","Pelapatate"],
+"s":["Forno a 200 °C. Patate a cubi di 2 cm, tutti uguali.","Condisci con metà olio, sale e rosmarino, stendi <strong>in un solo strato</strong> e inforna 35-40 minuti girando a metà.","Scola e sciacqua i legumi. Il peso in tabella è <strong>già sgocciolato</strong>.","Scaldali 5 minuti in padella con uno spicchio d'aglio, schiacciandone qualcuno col cucchiaio.","Servi con le patate, la verdura e il resto dell'olio a crudo."],
+"note":"Le patate sono il carboidrato del pasto, non il contorno: la verdura ci vuole comunque, a parte."},
+
+"patate-e-controfiletto":{"n":"Patate al forno e controfiletto","e":"🥩","m":"Cena · sabato (Sett. A)","t":50,
+"i":[["Patate",400,"g","pelate, a crudo"],["Controfiletto sgrassato",300,"g",null],["Olio extra vergine",16,"g","metà sulle patate, metà a crudo"],["Verdura di contorno",null,null,"non si pesa"],["Rosmarino, sale",null,null,"quanto basta"]],
+"u":["Teglia da forno","Padella pesante o ghisa","Carta forno","Bilancia"],
+"s":["Forno a 200 °C, patate a cubi di 2 cm, metà olio, sale, rosmarino, un solo strato, 35-40 minuti girando a metà.","Tira fuori la carne dal frigo <strong>30 minuti prima</strong> e asciugala con carta da cucina.","Negli ultimi 10 minuti scalda la padella vuota a fuoco alto, 2 minuti. Deve essere molto calda.","Appoggia il controfiletto e <strong>non toccarlo</strong>: 2,5-3 minuti da un lato, girata unica, altri 2-3 dall'altro.","<strong>Lascialo riposare 5 minuti</strong> su un piatto prima di tagliarlo, poi affettalo controfibra."],
+"note":"Col termometro: 52-55 °C al cuore è media rosata, 60 °C media, oltre i 68 °C ben cotta e asciutta. Senza termometro conta i minuti e non aprire la carne per guardare."},
+
+"pasta-e-uova":{"n":"Pasta e uova","e":"🍳","m":"Pranzo · domenica (Sett. A e B)","t":20,
+"i":[["Pasta",220,"g","a crudo"],["Uova",3,"n",null],["Grana grattugiato",20,"g",null],["Olio extra vergine",16,"g","metà in cottura, metà a crudo"],["Verdura di contorno",null,null,"non si pesa"],["Pepe, sale",null,null,"quanto basta"]],
+"u":["Pentola alta","Ciotola","Padella","Scolapasta","Bilancia"],
+"s":["Sbatti le uova in una ciotola con il grana e una macinata di pepe.","Cuoci la pasta al dente e tieni da parte <strong>mezzo mestolo di acqua di cottura</strong>.","Scola la pasta e <strong>spegni il fuoco</strong>. Versala nella padella tiepida, non bollente.","Aggiungi le uova sbattute e mescola energicamente fuori dal fuoco, allungando con l'acqua di cottura: deve diventare una crema.","Se resta troppo liquida, rimetti 10 secondi sul fuoco bassissimo mescolando sempre."],
+"note":"L'errore classico è versare le uova sulla padella bollente: si rapprendono in frittata invece di fare la crema. Il fuoco va spento prima, sempre."},
+
+"pasta-lonza":{"n":"Pasta con straccetti di lonza","e":"🍖","m":"Pranzo · lunedì (Sett. B)","t":30,
+"i":[["Pasta",220,"g","a crudo"],["Lonza di maiale",200,"g","a fette sottili"],["Olio extra vergine",16,"g","metà in cottura, metà a crudo"],["Verdura di contorno",null,null,"non si pesa"],["Rosmarino, sale",null,null,"quanto basta"]],
+"u":["Padella pesante","Pentola alta","Scolapasta","Bilancia"],
+"s":["Taglia la lonza a strisce sottili e asciugale con carta da cucina.","Padella vuota a fuoco alto per 2 minuti, poi metà olio e le strisce poche alla volta.","Cuoci <strong>2 minuti per lato</strong>: la lonza è magra e oltre i 5 minuti totali diventa asciutta.","Cuoci la pasta al dente, saltala nella stessa padella con un goccio di acqua di cottura.","Rimetti la carne, spegni, resto dell'olio a crudo."],
+"note":"La lonza è il taglio magro del maiale, si comporta come il pollo: cotta bene dentro ma senza tirarla per i capelli. Se le fette sono spesse più di un centimetro, allunga di un minuto per lato."},
+
+"pasta-ricotta":{"n":"Pasta alla ricotta","e":"🧀","m":"Pranzo · mercoledì (Sett. B)","t":20,
+"i":[["Pasta",220,"g","a crudo"],["Ricotta vaccina",100,"g",null],["Olio extra vergine",16,"g","a crudo"],["Verdura di contorno",null,null,"non si pesa"],["Pepe, sale",null,null,"quanto basta"]],
+"u":["Pentola alta","Ciotola","Scolapasta","Bilancia"],
+"s":["In una ciotola stempera la ricotta con <strong>due cucchiai di acqua di cottura calda</strong>, finché diventa una crema liscia.","Cuoci la pasta al dente e tieni da parte un mestolo d'acqua.","Scola la pasta, versala nella ciotola con la ricotta e manteca fuori dal fuoco, allungando se serve.","Pepe abbondante e l'olio a crudo. Verdura a parte."],
+"note":"La ricotta non va mai messa in padella sul fuoco: impazzisce e diventa granulosa. Si stempera a parte con l'acqua di cottura e la pasta si manteca fuori dal fornello."},
+
+"patate-e-vitello":{"n":"Patate al forno e vitello","e":"🥩","m":"Cena · mercoledì (Sett. B)","t":50,
+"i":[["Patate",400,"g","pelate, a crudo"],["Vitello",300,"g","fettine o nodino"],["Olio extra vergine",16,"g","metà sulle patate, metà a crudo"],["Verdura di contorno",null,null,"non si pesa"],["Rosmarino, salvia, sale",null,null,"quanto basta"]],
+"u":["Teglia da forno","Padella pesante","Carta forno","Bilancia"],
+"s":["Forno a 200 °C, patate a cubi di 2 cm, metà olio, sale, rosmarino, un solo strato, 35-40 minuti girando a metà.","Asciuga le fettine di vitello con carta da cucina.","Padella molto calda, poco olio, <strong>1-2 minuti per lato</strong> a seconda dello spessore.","Sala solo alla fine e servi subito con le patate e la verdura."],
+"note":"Il vitello è carne bianca e magrissima: perdona ancora meno del manzo. Appena il centro perde il rosa è pronto, oltre diventa stopposo e grigio."},
+
+"pasta-controfiletto":{"n":"Pasta con straccetti di controfiletto","e":"🥩","m":"Pranzo · giovedì (Sett. B)","t":30,
+"i":[["Pasta",220,"g","a crudo"],["Controfiletto sgrassato",200,"g","a fette sottili"],["Olio extra vergine",16,"g","metà in cottura, metà a crudo"],["Verdura di contorno",null,null,"non si pesa"],["Rosmarino, sale",null,null,"quanto basta"]],
+"u":["Padella pesante","Pentola alta","Scolapasta","Bilancia"],
+"s":["Taglia il controfiletto a strisce sottili controfibra e asciugale.","Padella vuota a fuoco alto 2 minuti, metà olio, strisce poche alla volta.","<strong>1 minuto per lato</strong>, non di più. Togli e tieni da parte.","Pasta al dente, saltala nella stessa padella con un goccio di acqua di cottura.","Rimetti la carne, spegni, resto dell'olio a crudo."],
+"note":"È il giorno del basket alle 20:00: questo pranzo va fatto in orario, non spostato in avanti, altrimenti arrivi in campo con la digestione aperta."},
+
+"pane-e-platessa":{"n":"Pane e platessa","e":"🐟","m":"Cena · giovedì (Sett. B)","t":20,
+"i":[["Pane",150,"g",null],["Filetti di platessa",300,"g","vanno bene surgelati"],["Olio extra vergine",16,"g","metà in cottura, metà a crudo"],["Verdura di contorno",null,null,"non si pesa"],["Limone, prezzemolo, sale",null,null,"quanto basta"]],
+"u":["Padella antiaderente","Bilancia","Carta da cucina"],
+"s":["Se sono surgelati, <strong>scongelali completamente</strong> e asciugali bene: l'acqua residua li fa bollire invece che rosolare.","Padella calda con metà olio, appoggia i filetti e non muoverli.","<strong>3 minuti dal lato della pelle, 2 dall'altro.</strong> La platessa è sottile e cuoce in fretta.","Spegni, sale, limone e il resto dell'olio a crudo. Servi col pane pesato."],
+"note":"La platessa si sfalda facilissimo: giralo una volta sola, con una paletta larga, e non rigirarlo per controllare."},
+
+"patate-e-lenticchie":{"n":"Patate al forno e lenticchie","e":"🫘","m":"Cena · venerdì (Sett. B)","t":50,
+"i":[["Patate",400,"g","pelate, a crudo"],["Lenticchie in scatola",240,"g","peso sgocciolato"],["Olio extra vergine",16,"g","metà sulle patate, metà a crudo"],["Verdura di contorno",null,null,"non si pesa"],["Alloro, aglio, sale",null,null,"quanto basta"]],
+"u":["Teglia da forno","Carta forno","Padella","Bilancia","Pelapatate"],
+"s":["Forno a 200 °C, patate a cubi di 2 cm, metà olio, sale, un solo strato, 35-40 minuti girando a metà.","Scola e sciacqua le lenticchie: il peso in tabella è <strong>già sgocciolato</strong>.","Padella con uno spicchio d'aglio e una foglia d'alloro, scalda le lenticchie 5-6 minuti a fuoco medio.","Servi con le patate, la verdura e il resto dell'olio a crudo."],
+"note":"Le lenticchie in scatola sono già cotte: vanno solo insaporite. Se le tieni sul fuoco dieci minuti si spappolano e diventano purè."},
+
+"farro-e-tonno":{"n":"Farro e tonno","e":"🌾","m":"Pranzo · sabato (Sett. B)","t":30,
+"i":[["Farro perlato",150,"g","a crudo"],["Tonno in vetro",160,"g","peso sgocciolato"],["Olio extra vergine",16,"g","a crudo"],["Verdura di contorno",null,null,"non si pesa"],["Limone, sale",null,null,"quanto basta"]],
+"u":["Pentola alta","Scolapasta","Ciotola","Bilancia"],
+"s":["Sciacqua il farro sotto l'acqua fredda.","Cuocilo in acqua salata <strong>15-18 minuti se è perlato</strong>, controlla sulla confezione: deve restare sodo, non molle.","Scolalo e allargalo su un piatto per farlo raffreddare qualche minuto.","Sgocciola il tonno e uniscilo al farro con l'olio a crudo, limone e verdura."],
+"note":"Farro perlato e farro decorticato hanno tempi molto diversi: il decorticato vuole ammollo e quasi un'ora. Controlla la confezione prima di partire, è la settimana in cui è più facile sbagliare."},
+
+"pane-e-fagioli":{"n":"Pane e fagioli","e":"🫘","m":"Cena · domenica (Sett. B)","t":20,
+"i":[["Pane",180,"g",null],["Fagioli in scatola",240,"g","peso sgocciolato"],["Olio extra vergine",16,"g","metà in cottura, metà a crudo"],["Verdura di contorno",null,null,"non si pesa"],["Aglio, salvia, sale",null,null,"quanto basta"]],
+"u":["Padella","Scolapasta","Bilancia"],
+"s":["Scola e sciacqua i fagioli: il peso è <strong>già sgocciolato</strong>.","Scalda metà olio con aglio e salvia, 1 minuto.","Aggiungi i fagioli e falli insaporire 6-8 minuti a fuoco medio-basso, schiacciandone qualcuno per legare.","Spegni, sale, il resto dell'olio a crudo. Servi col pane pesato e la verdura."],
+"note":"Schiacciare un cucchiaio di fagioli contro il bordo della padella crea una cremina che tiene insieme il piatto. Senza quel passaggio restano asciutti e slegati."}
+}
