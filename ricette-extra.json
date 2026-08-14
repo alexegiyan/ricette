@@ -1,0 +1,13 @@
+{
+"riso-e-gamberetti":{"n":"Riso e gamberetti","e":"🍤","m":"Pranzo · sabato","t":25,
+"i":[["Riso",150,"g","a crudo"],["Gamberetti",200,"g","anche surgelati"],["Olio extra vergine",16,"g","metà in cottura, metà a crudo"],["Verdura di contorno",null,null,"non si pesa"],["Aglio, limone, prezzemolo, sale",null,null,"quanto basta"]],
+"u":["Pentola alta","Padella","Scolapasta","Bilancia"],
+"s":["Se i gamberetti sono surgelati, <strong>scongelali del tutto e asciugali</strong>: l'acqua li fa bollire invece che rosolare.","Cuoci il riso in acqua salata, il tempo scritto sulla confezione, e scolalo.","Padella calda con metà olio e uno spicchio d'aglio schiacciato, 1 minuto, poi togli l'aglio.","Butta i gamberetti e cuoci <strong>2-3 minuti in tutto</strong>, girandoli una volta. Sono pronti appena diventano rosa e si arricciano a C.","Spegni, unisci il riso, limone, prezzemolo e il resto dell'olio a crudo."],
+"note":"I gamberetti passano da teneri a gommosi in meno di un minuto. Se si arricciano fino a chiudersi a O invece che a C, sono già troppo cotti: toglili dal fuoco quando sono a C."},
+
+"pane-e-ricotta":{"n":"Pane e ricotta","e":"🧀","m":"Cena · sabato","t":10,
+"i":[["Pane",180,"g",null],["Ricotta vaccina",250,"g",null],["Olio extra vergine",16,"g","a crudo"],["Verdura di contorno",null,null,"non si pesa"],["Pepe, sale",null,null,"quanto basta"]],
+"u":["Bilancia","Ciotola"],
+"s":["Pesa la ricotta e mettila in una ciotola con sale, pepe e l'olio a crudo. Mescola giusto per ammorbidirla.","Servi con il pane pesato e la verdura, cruda o cotta.","Se la ricotta risulta acquosa, scolala qualche minuto in un colino prima di pesarla."],
+"note":"Cena senza cottura, dieci minuti in tutto. La ricotta va pesata dopo averla scolata: quella molto umida può perdere 20-30 g di siero e il conto delle proteine cambia."}
+}
