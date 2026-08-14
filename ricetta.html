@@ -109,7 +109,9 @@ function render(){
     }
   });
 }
-fetch("ricette.json").then(r=>r.json()).then(all=>{
+const grab=u=>fetch(u).then(r=>r.ok?r.json():{}).catch(()=>({}));
+Promise.all([grab("ricette.json"),grab("ricette-extra.json")]).then(([a,b])=>{
+  const all=Object.assign({},a,b);
   const d=all[slug];
   if(!d){document.getElementById("tit").textContent="Ricetta non trovata";
     document.getElementById("met").innerHTML='<span>Torna all\'elenco e riapri il link</span>';return;}
@@ -120,7 +122,7 @@ fetch("ricette.json").then(r=>r.json()).then(all=>{
   document.getElementById("too").innerHTML=d.u.map(x=>"<li>"+x+"</li>").join("");
   document.getElementById("ste").innerHTML=d.s.map(x=>"<li>"+x+"</li>").join("");
   document.getElementById("nte").innerHTML=d.note;
-  BASE=d.i.map(a=>({name:a[0],qty:a[1],unit:a[2],hint:a[3]}));
+  BASE=d.i.map(a2=>({name:a2[0],qty:a2[1],unit:a2[2],hint:a2[3]}));
   document.getElementById("content").hidden=false;
   render();
 }).catch(()=>{document.getElementById("tit").textContent="Errore di caricamento";});
