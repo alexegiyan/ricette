@@ -46,30 +46,31 @@ ol li::before{content:counter(s);position:absolute;left:0;top:1px;width:30px;hei
 .tools{display:flex;flex-wrap:wrap;gap:8px;padding:0;margin:0;list-style:none}
 .tools li{font-size:15px;background:var(--card);border:1px solid var(--rule);border-radius:8px;padding:8px 12px}
 footer{margin-top:44px;font-size:14px;color:var(--muted);text-align:center}
-.list{list-style:none;padding:0;margin:0}
+@media (prefers-reduced-motion:reduce){*{transition:none!important}}</style>
+<style>.list{list-style:none;padding:0;margin:0}
 .list li{margin-bottom:10px}
 .list a{display:flex;align-items:center;gap:14px;background:var(--card);border:1px solid var(--rule);border-radius:12px;padding:14px 16px;text-decoration:none;color:var(--ink)}
 .list a:hover{border-color:var(--signal)}
 .list .ic{font-size:28px;flex:0 0 auto}
 .list em{display:block;font-style:normal;font-size:14px;color:var(--muted);font-weight:400}
-@media (prefers-reduced-motion:reduce){*{transition:none!important}}</style>
+.shop{display:flex;align-items:center;gap:14px;background:var(--card);border:1px solid var(--rule);border-left:4px solid var(--signal);border-radius:12px;padding:14px 16px;text-decoration:none;color:var(--ink);margin-bottom:22px}</style>
 </head>
 <body>
 <div class="wrap">
   <div class="cover"><div class="fallback">🍳</div></div>
   <h1>Ricette</h1>
   <div class="meta"><span>Apri una ricetta e spunta chi mangia</span></div>
-  <ul class="list">
-    <li><a href="pasta-e-ceci.html"><span class="ic">🍝</span><span><strong>Pasta e ceci</strong><em>Pranzo · giorno legumi · 25 minuti</em></span></a></li>
-    <li><a href="pasta-carne-bianca.html"><span class="ic">🍗</span><span><strong>Pasta con carne bianca</strong><em>Pranzo · lunedì, giovedì, domenica · 30 minuti</em></span></a></li>
-    <li><a href="pasta-carne-rossa.html"><span class="ic">🥩</span><span><strong>Pasta con carne rossa magra</strong><em>Pranzo · mercoledì · 35 minuti</em></span></a></li>
-    <li><a href="riso-e-tonno.html"><span class="ic">🍚</span><span><strong>Riso al tonno</strong><em>Pranzo · sabato · 25 minuti</em></span></a></li>
-    <li><a href="patate-e-uova.html"><span class="ic">🥔</span><span><strong>Patate al forno con uova</strong><em>Cena · mercoledì · 50 minuti</em></span></a></li>
-    <li><a href="patate-e-carne-rossa.html"><span class="ic">🥩</span><span><strong>Patate al forno e girello di manzo</strong><em>Cena · venerdì · 50 minuti</em></span></a></li>
-    <li><a href="pesce-in-padella.html"><span class="ic">🐟</span><span><strong>Pesce in padella con pane</strong><em>Cena · giovedì · 20 minuti</em></span></a></li>
-    <li><a href="pane-e-legumi.html"><span class="ic">🫘</span><span><strong>Legumi in umido con pane</strong><em>Cena · domenica · 20 minuti</em></span></a></li>
-  </ul>
+  <a class="shop" href="spesa.html"><span class="ic">🛒</span><span><strong>Lista della spesa</strong><em>Della settimana, con le spunte che restano salvate</em></span></a>
+  <ul class="list" id="l"></ul>
   <footer>Tutti i pesi sono a crudo, salvo dove indicato.</footer>
 </div>
+<script>
+const LEG=[{"h": "pasta-e-ceci.html", "e": "🍝", "n": "Pasta e ceci", "m": "Pranzo · giorno legumi · 25 minuti"}, {"h": "pasta-carne-bianca.html", "e": "🍗", "n": "Pasta con carne bianca", "m": "Pranzo · lunedì, giovedì, domenica · 30 minuti"}, {"h": "pasta-carne-rossa.html", "e": "🥩", "n": "Pasta con carne rossa magra", "m": "Pranzo · mercoledì · 35 minuti"}, {"h": "riso-e-tonno.html", "e": "🍚", "n": "Riso al tonno", "m": "Pranzo · sabato · 25 minuti"}, {"h": "patate-e-uova.html", "e": "🥔", "n": "Patate al forno con uova", "m": "Cena · mercoledì · 50 minuti"}, {"h": "patate-e-carne-rossa.html", "e": "🥩", "n": "Patate al forno e girello di manzo", "m": "Cena · venerdì · 50 minuti"}, {"h": "pesce-in-padella.html", "e": "🐟", "n": "Pesce in padella con pane", "m": "Cena · giovedì · 20 minuti"}, {"h": "pane-e-legumi.html", "e": "🫘", "n": "Legumi in umido con pane", "m": "Cena · domenica · 20 minuti"}];
+function row(h,e,n,m){return '<li><a href="'+h+'"><span class="ic">'+e+'</span><span><strong>'+n+'</strong><em>'+m+'</em></span></a></li>';}
+fetch("ricette.json").then(r=>r.json()).then(all=>{
+  const dyn=Object.keys(all).map(k=>row("ricetta.html?r="+k,all[k].e,all[k].n,all[k].m+" · "+all[k].t+" minuti"));
+  document.getElementById("l").innerHTML=LEG.map(x=>row(x.h,x.e,x.n,x.m)).join("")+dyn.join("");
+}).catch(()=>{document.getElementById("l").innerHTML=LEG.map(x=>row(x.h,x.e,x.n,x.m)).join("");});
+</script>
 </body>
 </html>
